@@ -1,0 +1,261 @@
+* { box-sizing: border-box }
+
+body { margin: 0; }
+
+.normal { font-weight: normal !important }
+.medium { font-weight: 500 }
+.bold, strong { font-weight: 600 !important }
+
+.btn {
+  font-family: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: .75rem 1.3rem;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  -webkit-appearance: none;
+  font-variant: all-small-caps;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, .175);
+  color: #FCD2D0;
+}
+
+
+@media screen and (min-width: 48em) {
+  .h0 { font-size: 5vw; }
+}
+
+.v60 { min-height: 60vh }
+.v80 { min-height: 80vh }
+.v100 { min-height: 100vh }
+
+
+a {
+    color: rgba(63, 136, 197, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(63, 136, 197, 0.6);
+}
+
+.bg-red a {
+  color: rgba(255, 255, 255, .875);
+  font-weight: bold;
+}
+
+.bg-red a:hover {
+  text-decoration: underline;
+}
+
+.codelike {
+  font-family: monospace;
+}
+
+.small {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+
+h1, h2, h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* basscss base forms */
+
+input,
+select,
+textarea,
+fieldset {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  padding: 0.3em 0.6em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+select {
+  line-height: 1.75;
+  padding: 0.3em 0.6em;
+}
+
+select:not([multiple]) {
+  vertical-align: middle;
+}
+
+textarea {
+  line-height: 1.75;
+  padding: 0.3em 0.6em;
+}
+
+.field {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(36,51,64, 0.25);
+  border-radius: 2px;
+}
+
+.letter {
+  box-shadow: 0px 2px 8px rgba(36, 51, 64, 0.3);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+thead {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+#resources h3 {
+  font-size: 1.1rem;
+  line-height: 1.3em;
+  font-weight: normal;
+}
+
+#resources p {
+  font-size: 0.9rem;
+  line-height: 1.5em;
+}
+
+
+th, td, .td-padding {
+  padding: 0.8rem 1rem;
+  line-height: inherit;
+}
+
+td { vertical-align: top }
+th, thead td { vertical-align: bottom }
+
+.table-zebra tr:nth-child(odd) {
+  background-color: rgba(36,51,64, 0.06);
+}
+.table-zebra thead tr {
+  background: transparent !important;
+}
+
+@media (min-width: 52em) {
+  .md-p4  { padding: 4rem !important }
+}
+
+.card { width: 100%; }
+
+@media (min-width: 38em) {
+  .card { width: 50%; }
+}
+
+@media (min-width: 52em) {
+  .card { width: 33%; }
+}
+
+.card h1 {
+  line-height: 1.4em;
+  margin-top: 8px;
+}
+
+.card h3 {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.btn { cursor: pointer; }
+
+
+.testimonial {
+    margin-top: 4rem;
+    margin-left: -1rem;
+}
+.testimonial blockquote {
+    margin-left: 0;
+}
+.testimonial blockquote p {
+    padding-left: 1rem;
+    border-left: 4px solid;
+    color: #777;
+}
+.testimonial img {
+    vertical-align: middle;
+    margin-left: 1rem;
+    border-left: 3px solid transparent; /* for alignment */
+}
+.testimonial .author {
+    font-style: italic;
+    margin-left: .75rem;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.epigraph {
+    margin: 3rem 0 4rem -1rem;
+}
+.epigraph blockquote {
+    margin-left: 0;
+}
+.epigraph blockquote p {
+    padding-left: 1rem;
+    border-left: 3px solid;
+    color: #F2241A;
+}
+.epigraph .author {
+    display: block;
+    font-style: italic;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.footer p {
+    line-height: 1.6em;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #CFD2D4;
+}

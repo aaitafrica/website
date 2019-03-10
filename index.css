@@ -1,0 +1,224 @@
+body {
+  line-height: 1.5em;
+}
+
+/*HERO*/
+
+#hero {
+  background: #9a2d3f;
+  z-index: -1;
+  background-image: url(/index-hero-bg.jpg);
+  background-size: cover;
+  height: 780px;
+}
+
+#hero-content {
+  width: 100%;
+  padding: 0 40px;
+}
+
+#hero-content a {
+  display: block;
+  margin-top: 160px;
+  width: 266px;
+}
+
+#hero-content img {
+  max-width: 100%;
+}
+
+#hero-content p {
+  font-size: 1.5em;
+  line-height: 1.35em;
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+
+
+
+/*INTRO SECTION*/
+
+#intro {
+  background: #2c3d48;
+  padding: 70px 0;
+  background-image: url(/intro-bg.jpg);
+  background-size: cover;
+}
+
+#intro h2 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.intro-col {
+  float: left;
+}
+
+#intro-text {
+  width: 100%;
+  padding: 0 20px;
+}
+
+#intro-text p {
+  font-size: 0.9em;
+}
+
+#intro-utilities {
+  width: 100%;
+  padding: 26px 20px 0;
+}
+
+#intro-utilities #map {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+#intro-utilities iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+input.email {
+  border: none;
+  border-radius: 4px;
+  float: left;
+  font-size: 16px;
+  padding: 9px 12px;
+}
+
+#mc-embedded-subscribe {
+  padding: 9px 12px;
+}
+
+
+
+/*COURSES*/
+
+#courses {
+  background: white;
+}
+
+@media (min-width: 52em) {
+  #courses .card { width: 50%; }
+}
+
+#course {
+  background-color: #2c3d48;
+  height: 520px;
+  color: white;
+}
+
+#course h1 {
+  font-size: 1.9rem;
+}
+
+#course h1 a {
+  color: white;
+}
+
+#course h1 a:hover {
+  color: #CFD2D4;
+}
+
+#course p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+#instructors {
+  background-color: rgba(207, 210, 212, 0.35);
+}
+
+#instructors p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin-left: 1em;
+}
+
+#instructors .table-cell {
+  vertical-align: top;
+  font-size: 0.8em;
+}
+
+#instructors .h3 {
+  font-size: 1.15rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background: linear-gradient(rgba(44, 61, 72, 0.6), rgba(44, 61, 72, 0.6)), url('/brand/course-bg-distributed.png'), #2c3d48;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#testimonials .h6 {
+  font-size: 1rem;
+}
+
+/* FAQ */
+
+#faq {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1)), url('/brand/course-bg-algorithms.png'), white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#faq p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 38em) {
+  #hero-content {
+    width: 48.936170212765957%;
+    margin-left: 17.021276595744681%;
+  }
+  #hero-content p {
+    margin-bottom: 160px;
+  }
+  #intro {
+    padding: 100px 0;
+  }
+
+  #intro-text {
+    width: 48.936170212765957%;
+    margin-left: 8.51063829787234%;
+    margin-right: 10.638297872340426%;
+  }
+  #intro-utilities {
+    width: 31.914893617021277%;
+    padding: 26px 0 0 0;
+  }
+
+  #course {
+    height: 410px;
+  }
+  #course.long {
+    height: 480px;
+  }
+}
+
+/* extra */
+.logo-footer {
+  font-weight: bold;
+  color: #fefefe;
+}
+
+#hero-content .logo {
+  font-weight: bold;
+  font-size: 4em;
+  padding-top: 1em;
+}
